@@ -1,0 +1,34 @@
+{
+  "config-y": {
+    "appName": "bikePickr",
+    "app_names": {
+      "single": {
+        "slug": "bikepickr",
+        "camel": "bikepickr",
+        "classed": "Bikepickr",
+        "humanized": "Bikepickr"
+      },
+      "plural": {
+        "slug": "bikepickrs",
+        "camel": "bikepickrs",
+        "classed": "Bikepickrs",
+        "humanized": "Bikepickrs"
+      },
+      "slug": "bikepickr"
+    },
+    "js": true,
+    "http": true,
+    "appDescription": "price comparison for bike parts",
+    "appKeywords": "bike, par",
+    "appAuthor": "j h",
+    "script": "js",
+    "httpType": "http",
+    "modules": [
+      "angularCookies",
+      "angularAnimate",
+      "angularTouch",
+      "angularSanitize"
+    ],
+    "restangular": false
+  }
+}
