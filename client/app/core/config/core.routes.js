@@ -18,6 +18,10 @@
         resolve: {
           Resolved: Resolved
         }
+      })
+      .state('foobit', {
+        url: '/foobit',
+        templateUrl: 'app/core/views/foobit.view.html'
       });
 
       /*
