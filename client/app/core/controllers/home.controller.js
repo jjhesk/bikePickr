@@ -16,8 +16,6 @@
     vm.createNewThing = createNewThing;
     vm.updateThing = updateThing;
 
-
-
     socket.syncUpdates('things', vm.awesomeThings);
 
     ////////////////////
